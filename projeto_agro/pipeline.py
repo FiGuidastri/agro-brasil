@@ -2,7 +2,7 @@ import mysql.connector
 import pandas as pd
 from mysql.connector import Error
 from projeto_agro.config import DB_CONFIG
-from extract_data import run_extraction # Importa a função de extração
+from projeto_agro_sqlite.extract_data import run_extraction # Importa a função de extração
 
 # --- 1. Funções de Conexão e Auxiliares ---
 
