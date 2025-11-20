@@ -1,7 +1,7 @@
 import sqlite3
 import pandas as pd
 import os
-from projeto_agro_sqlite.config_sqlite import DB_FILE
+from config_sqlite import DB_FILE
 from extract_data import run_extraction # Reutiliza a função de extração
 
 # --- 1. Funções de Conexão e Auxiliares ---
